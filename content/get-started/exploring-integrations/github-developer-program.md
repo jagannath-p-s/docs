@@ -1,36 +1,45 @@
+# GitHub Developer Program
+
+Are you building tools that integrate with GitHub? Join the GitHub Developer Program and unlock a world of possibilities!
+
+{% if currentVersion == "free-pro-team@latest" or currentVersion == "github-ae@latest" or currentVersion ver_gt "enterprise-server@3.0" %}
+
+## Why Join?
+
+1. **Innovate**: Create seamless integrations with the platform you use daily for code management.
+2. **Grow**: Gain exposure to millions of developers and organizations using GitHub.
+3. **Excel**: Access resources and support to build best-in-class integrations.
+
+## Program Benefits
+
+- **Developer Licenses**: Test your application against GitHub Enterprise Server.
+- **Promotion**: Showcase your integration to the GitHub community.
+- **Support**: Get dedicated assistance for your integration efforts.
+
+## Eligibility Criteria
+
+To join the GitHub Developer Program, you must:
+
+1. Have an integration in production or active development using the GitHub API.
+2. Provide an email address for GitHub users to contact you for support.
+
+## How to Join
+
+[Register now](https://github.com/developer/register) and start leveraging the power of GitHub in your tools!
+
+## Spread the Word
+
+Already have a GitHub integration? Awesome! Here's how you can promote it:
+
+- Use the [Octocat or GitHub logo](https://github.com/logos) to identify that your product works with GitHub.
+- Create and share a video or blog post about your integration on your website.
+
+## Enterprise Solutions
+
+Building for enterprises? Email [partnerships@github.com](mailto:partnerships@github.com) to request developer licenses for testing with GitHub Enterprise Server.
+
+{% endif %}
+
 ---
-title: GitHub Developer Program
-intro: 'If you build tools that integrate with {% data variables.product.prodname_dotcom %}, you can join the {% data variables.product.prodname_dotcom %} Developer Program.'
-redirect_from:
-  - /program
-  - /developers/overview/github-developer-program
-versions:
-  fpt: '*'
-  ghec: '*'
-topics:
-  - API
----
 
-Building an application that integrates with {% data variables.product.prodname_dotcom %}? Register for our Developer Program! The possibilities are endless, and you enjoy the kudos. [Register now](https://github.com/developer/register).
-
-## Scratch an itch
-
-Build your own tools that seamlessly integrate with the place you push code every day.
-
-## Take on the enterprise
-
-Email <a href="mailto:partnerships@github.com">partnerships@github.com</a> to request developer licenses to build and test your application against {% data variables.product.prodname_ghe_server %}.
-
-## Have an integration that works with GitHub?
-
-Awesome! Here’s how you can spread the word:
-
-* Use the [Octocat or GitHub logo](https://github.com/logos) to identify that your product works with GitHub.
-* Post a video or a blog on your website about your integration.
-
-## Ready to join the GitHub Developer Program?
-
-Membership is open to individual developers and companies who have:
-
-* An integration in production or development using the GitHub API.
-* An email address where GitHub users can contact you for support.
+*Join the GitHub Developer Program today and transform the way developers work!*
